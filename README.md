@@ -4,8 +4,10 @@
 
 * ## Evaluation
 
-* ## Research
+* ## Homework
 
 * ## Practices
 
-* ## Homework
+* ## Research
+
+

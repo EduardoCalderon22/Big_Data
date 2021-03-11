@@ -1,5 +1,5 @@
-// Assessment 1  /Practica 1.
 
+// Assessment 1/Practica 1
 /*1.Develop an algorithm in scala that calculates the radius of a circle*/
 var a=3
 var r=math.sqrt(a/math.Pi)        

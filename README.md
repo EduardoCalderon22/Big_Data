@@ -1,6 +1,15 @@
 # Big_Data
 
-### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO INSTITUTO TECNOLÓGICO DE TIJUANA SUBDIRECCIÓN ACADÉMICA DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN PERIODO: Agosto-Diciembre  2020</p>
+### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO</p>
+
+### <p align="center" > INSTITUTO TECNOLÓGICO DE TIJUANA</p>
+
+### <p align="center" > SUBDIRECCIÓN ACADÉMICA </p>
+
+### <p align="center" > DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN </p>
+
+### <p align="center" > PERIODO: Agosto-Diciembre  2020</p>
+
 
 ###  <p align="center">  Carrera: Ing. En Sistemas Computacionales. 
 ### <p align="center"> Materia: 	Datos Masivos (BDD-1704 SC9A	).</p>

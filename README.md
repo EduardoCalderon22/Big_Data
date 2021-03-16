@@ -33,6 +33,6 @@
   * [Practice 3](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_1/Unit_1/Practices/Practice-3)
 
 * ## Research
-[Josue Investigation 1](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_1/Unit_1/Research/Vasquez_Macias_Cristo_Josue_15210743)
+[Josue Investigation 1](https://github.com/EduardoCalderon22/Big_Data/blob/Unit_1/Unit_1/Research/Vasquez_Macias_Cristo_Josue_15210743.md)
 
 

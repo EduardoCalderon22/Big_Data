@@ -32,9 +32,11 @@ The potential benefits are when you do it, how to do it right, and motivate your
 - Matchmaking requires vulnerability
 - Convince managers and coworkers
 ## Conclusion
-It is a good practice for those who are starting or are already experts since, as we saw in this investigation, when one is programming and the other observing, errors are seen and the necessary changes can be made.
-For work teams that are of different levels as we saw it, it is a difficulty or disadvantage but it can also be taken as an advantage because knowledge is leveled and shared.
+It is a good way to work on a platform and be characterized with the work of your practices, in facilitating and obtaining the simplest possible understanding when both are working.
+
+All this is a way to make fewer mistakes and more quality in the way of working.
 ## References
-Airfocus. (----). Pair Programming. 2020, de Airfocus Sitio web: https://airfocus.com/glossary/what-is-pair-programming/
+
 Margaret Rouse. (2011). pair programming. 2020, de TechTarget Sitio web: https://searchsoftwarequality.techtarget.com/definition/Pair-programming
+
 Birgitta Böckeler, Nina Siessegger. (15-01-2020). On Pair Programming. 2020, de MartinFowler Sitio web: https://martinfowler.com/articles/on-pair-programming.html#Challenges

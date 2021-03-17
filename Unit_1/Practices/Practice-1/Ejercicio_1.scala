@@ -4,8 +4,18 @@
 var a=3
 var r=math.sqrt(a/math.Pi)        
 /*2. Develop an algorithm in scala that tells me if a number is a cousin*/
-var t = ((2,4,5),(1,2,3),(3.1416,23))
-t._3._1
+val number = 3
+var cont = 0
+for (i <- Range (1, number + 1)) {
+ if (num% i == 0) {
+   cont + = 1
+ }
+}
+if (cont! = 2) {
+ println ("Non-prime number")
+} else {
+ println ("The number is prime")
+}
 /*3. Given the variable bird = "tweet", use string interpolation to print "I am writing a tweet"n*/
 var bird="tweet"
 printf(s"Estoy escribiendo un %s",bird)

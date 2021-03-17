@@ -1,7 +1,7 @@
 
 ## Fibonacci V1
 
-```
+``` scala
 val n=10 
 def fib1(n:Int):Int={
     if(n<2)
@@ -18,7 +18,7 @@ println(fib1(n))
 
 ## Fibonacci V2
 
-```
+``` scala
 val n = 10 
 var phi=((1+math.sqrt(5))/2) 
 var j=((math.pow(phi,n)-math.pow((1-phi),n))/(math.sqrt(5))) 
@@ -37,7 +37,7 @@ println(fib2(n))
 ```
 ## Fibonacci V3
 
-```
+``` scala
 def fib3(n:Int):Int={
 var n : Int = 7  
 var a = 0 
@@ -59,7 +59,7 @@ println(fib3(n))
 
 ## Fibonacci V4
 
-```
+``` scala
 def fib4(n:Int):Int={ 
 var n : Int = 6 
 var a = 0 
@@ -76,7 +76,7 @@ println(fib4(n))
 
 ## Fibonacci V5
 
-```
+``` scala
 def fib5(n:Int):Int={
     var n = 7 
     var vector = new Array[Int](n+1) 

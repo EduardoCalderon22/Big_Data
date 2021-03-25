@@ -1,4 +1,3 @@
-### Code 1
 We create the listEvens function, we will start a For loop that will check if the elements of a list are even or not. When finished with all the elements of the list it will show a message with the word "Done"
 ```scala
 def listEvens(list:List[Int]): String ={
@@ -22,7 +21,6 @@ We execute the listEvens function with the 2 lists that we made
 listEvens(l)
 listEvens(l2)
 ```
-###Code 2
 Start the afortunado function, create a variable for get the result final. If the element in the current index is different than 7, it will add the number to the variable 'res', but it is equal to 7, it will sum 14 to the variable 'res', at the end of the cycle, it will print the final result of 'res'. 
 ```scala
 //3 7 afortunado
@@ -43,7 +41,6 @@ Create of the list 'af' and the usage of the afortunado function
 val af= List(1,7,7)
 println(afortunado(af))
 ```
-### Code 3
 We create the "balance" function , we start 2 variables with the value of 0. The function returns a true if "primera" and "segunda" are the same, after checks the list through each index and adds the number in the current index to "primera", while "segunda" subtracts the number in the index from itself.
 ```scala
 def balance(list:List[Int]): Boolean={

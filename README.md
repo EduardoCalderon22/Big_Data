@@ -8,7 +8,7 @@
 
 ### <p align="center" > DEPARTAMENTO DE SISTEMAS Y COMPUTACIÓN </p>
 
-### <p align="center" > PERIODO: Agosto-Diciembre  2020</p>
+### <p align="center" > PERIODO: Febrero-Julio  2021</p>
 
 
 ###  <p align="center">  Carrera: Ing. En Sistemas Computacionales. 
@@ -23,7 +23,7 @@
 ## Index
 
 * ## Evaluation  
-  * [Practice 1](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_1/Unit_1/Evaluation/)
+  * [Exam ](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_1/Unit_1/Evaluation/)
   
 * ## Homework
 

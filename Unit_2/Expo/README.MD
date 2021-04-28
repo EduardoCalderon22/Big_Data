@@ -50,8 +50,7 @@ Comenzando desde la raíz, los datos se dividen en la función que da como resul
 
 ## Ejemplo 2
 
-![Ejemplo 2]()
-
+![Ejemplo 2](https://github.com/EduardoCalderon22/Big_Data/blob/Unit_2/Unit_2/Expo/1.png)
 
 
 ## Video

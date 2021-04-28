@@ -53,6 +53,11 @@ Comenzando desde la raíz, los datos se dividen en la función que da como resul
 ![Ejemplo 2](https://github.com/EduardoCalderon22/Big_Data/blob/Unit_2/Unit_2/Expo/1.png)
 
 
+## Ejemplo 3
+Ejemplo de un banco que utiliza un árbol de decisión para decidir si le debería ofrecer un préstamo a una persona.
+![Ejemplo 3](https://github.com/EduardoCalderon22/Big_Data/blob/Unit_2/Unit_2/Expo/2.png)
+
+
 ## Video
 
 https://www.youtube.com/watch?v=UhY5vPfQIrA

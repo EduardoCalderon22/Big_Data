@@ -27,6 +27,10 @@
   
 * ## Practices
    * [Practice 1](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Practice_1)
+   * [Practice 2]()
+   * [Expo Basic_Statistics](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Basic_Statistics)
+
+
 
 * ## Research
 

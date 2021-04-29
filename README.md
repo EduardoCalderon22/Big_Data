@@ -25,8 +25,8 @@
 * ## Expo
    * [Decision Tree Classifier](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Expo)
   
-
 * ## Practices
+   * [Practice 1](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Practice_1)
 
 * ## Research
 

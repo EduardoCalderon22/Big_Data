@@ -54,7 +54,11 @@ for(ind <- Range(1, colnames.length)){
     println("\n")
 }
 ```
+Transform the data frame so that it takes the form of ("label", "features")
 
+```scala
+Import VectorAssembler and Vectors:
+```
 Import VectorAssembler and Vectors
 ```scala
 import org.apache.spark.ml.feature.VectorAssembler

@@ -7,6 +7,7 @@
 import org.apache.spark.ml.regression.LinearRegression
 
 // Optional: Use the following code to configure errors
+//for this, to have as a result a scalability of the correct data
 import org.apache.log4j._
 Logger.getLogger ("org"). SetLevel (Level.ERROR)
 
@@ -37,7 +38,6 @@ data.show(1)
 +--------------------+------+------------------+-----------------+-----------------+--------------------+-------------------+
 only showing top 1 row
 
-
 ////////////////////////////////////////////////////// ////
 //// Configure the DataFrame for Machine Learning ////
 ////////////////////////////////////////////////////// ////
@@ -54,6 +54,8 @@ for(ind <- Range(1, colnames.length)){
     println("\n")
 }
 
+//Transform the data frame so that it takes the form of ("label", "features")
+Import VectorAssembler and Vectors:
 
 // Import VectorAssembler and Vectors
 import org.apache.spark.ml.feature.VectorAssembler
@@ -68,9 +70,8 @@ data.select(data("Yearly Amount Spent").as("label"), $"Avg Session Length", $"Ti
 // Leave all this as a new DataFrame called df
 val df = data.select(data("Yearly Amount Spent").as("label"), $"Avg Session Length", $"Time on App",$"Time on Website", $"Length of Membership")
 
-// Let the assembler object convert the input values ​​to a vector
+// Let the assembler object convert the input values ​​to a vector to characterize the data by periods
 val assembler = (Vector("label","Avg Session Length","Time on App","Time on Website","Length of Membership"))
-
 
 // Use the VectorAssembler object to convert the input columns of the df
 // to a single output column of an array named "features"

@@ -29,7 +29,7 @@
    * [Practice 1](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Practice_1)
    * [Practice 2]()
    * [Expo Basic Statistics](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Basic_Statistics)
-   * [Expo Random Forest Classifier](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Random_Forest_ Classifier)
+   * [Expo Random Forest Classifier](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Random_Forest_%20Classifier)
 
 
 

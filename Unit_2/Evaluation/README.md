@@ -15,5 +15,9 @@ import org.apache.spark.ml.feature. {VectorAssembler, StringIndexer}
 import org.apache.spark.ml.linalg.Vectors
 ```
 
+#### Loading data from iris data file.
+```scala
+val data = spark.read.option ("header", "true"). option ("inferSchema", "true"). format ("csv"). load ("iris.csv")
+```
 
 

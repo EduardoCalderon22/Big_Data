@@ -2,11 +2,11 @@
 
 In the following instructions we will return to some important imports for the realization of the problem and the perception of the data.
 
-This data was retrieved from the repository: https://github.com/jcromerohdz/iris
-We will use the Liberia Mlib that can help us in multilayer perception.
+This data was retrieved from the repository: https://github.com/jcromerohdz/iris. We will use the Liberia Mlib that can help us in multilayer perception.
 For the first step, you have to clean the data through this script.
 
-### SPARK "MLlib" BOOKSTORE
+#### We import what is necessary
+#### Perception and evaluation of data related to stability in vectors.
 ```scala
 import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator

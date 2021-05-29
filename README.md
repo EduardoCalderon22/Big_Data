@@ -15,22 +15,20 @@
 
 ## Index
 
-* ## Evaluative practice
+* ### Evaluative practice
+* [Iris_Evaluative_Practice](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Evaluation)
 
-* ## Practices
+* ### Practices
    * [Practice 1](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Practice_1)
    * [Practice 2](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Practice_2)
 
-* ## Our exposition
+* ### Our exposition
    * [Decision Tree Classifier](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Expo)
   
-* ## Exhibition Topics Practice
+* ### Exhibition Topics Practice
    * [Expo Basic Statistics](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Basic_Statistics)
    * [Expo Random Forest Classifier](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Random_Forest_%20Classifier)
    * [Expo Gradient-boosted](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Gradient-boosted)
    * [Expo Multilayer perceptron classifier](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Multilayer_Perceptron_Classifier)
    * [Expo Linear Support Vector Machine](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Linear_Supoport_Vector_Machine)
    * [Expo One-vs-Rest classifier (a.k.a. One-vs-All)](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Sample_Multiclass_Classification_Data)
-
-* ## Research
-

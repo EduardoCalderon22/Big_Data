@@ -37,3 +37,23 @@ val data2 = Features.transform (labeltransform)
 // 5. Usa el metodo describe () para aprender mas sobre los datos del DataFrame.
     data2.describe().show()
 
+// 6. Haga la transformación pertinente para los datos categoricos los cuales serán nuestras etiquetas a clasificar.
+
+// Cubre el algortmo en trabajar con caractisticas, dividido en grupos de datos.
+val vectorFeatures = (new VectorAssembler (). setInputCols (Array ("sepal_length", "sepal_width", "petal_length", "petal_width")). setOutputCol ("features"))
+//Transformar utilizando solo el dataframe.
+val features = vectorFeatures.transform (dataClean)
+// Convertir una columna como la columna indice(muy similar a la columna del factor X)
+val speciesIndexer = new StringIndexer (). setInputCol ("species"). setOutputCol ("label")
+// Se adjunta el indice con las caracteristicas del vector.
+val dataIndexed = speciesIndexer.fit (features) .transform (features)
+
+// 7. Construya el modelo de clasificación y explique su arquitectura.
+// Splits aqui se utlizo para separar y para optener valores como archivos csv delimitados por tuberias.
+val splits = dataIndexed.randomSplit (Array (0.6, 0.4), seed = 1234L)
+//Declarar el 60% de la informacion con la variable train.
+val train = splits (0)
+// Aqui se declara la otra infomacion de 40%.
+val test = splits (1)
+
+// 8. Imprima los resultados del modelo

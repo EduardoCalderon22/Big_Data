@@ -55,7 +55,9 @@ val data2 = Features.transform(labeltransform)
     val model = trainer.fit (train)
     val result = model.transform (test)
     val predictionAndLabels = result.select ("prediction", "label")
+    val evaluator = new MulticlassClassificationEvaluator().setMetricName("accuracy")
     predictionAndLabels.show (50)
     result.show (30)
-
+    
 // 8. Imprima los resultados del modelo
+    println(s"Test set accuracy = ${evaluator.evaluate(predictionAndLabels)}")

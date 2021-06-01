@@ -40,21 +40,28 @@ val data2 = Features.transform(labeltransform)
 ```scala
     data2.columns
 ```
+![image](https://user-images.githubusercontent.com/60414250/120256214-816d8300-c242-11eb-8939-906a3c44958c.png)
+
 
 ### 3. ¿Cómo es el esquema?
 ```scala
     data2.printSchema()
 ```
+![image](https://user-images.githubusercontent.com/60414250/120256269-9c3ff780-c242-11eb-80fd-e85c17379a79.png)
+
 
 ### 4. Imprime las primeras 5 columnas.
 ```scala
     data2.show(5)
  ```
+![image](https://user-images.githubusercontent.com/60414250/120256300-acf06d80-c242-11eb-919b-325211289f7e.png)
+
 
 ### 5. Usa el metodo describe () para aprender mas sobre los datos del DataFrame.
 ```scala
     data2.describe().show()
 ```
+![image](https://user-images.githubusercontent.com/60414250/120256341-c1cd0100-c242-11eb-9b8d-256685dd918a.png)
 
 ### 6. Haga la transformación pertinente para los datos categoricos los cuales serán nuestras etiquetas a clasificar.
 ```scala
@@ -67,6 +74,8 @@ val data2 = Features.transform(labeltransform)
     val train = splits(0)
     val test = splits(1)
 ```
+![image](https://user-images.githubusercontent.com/60414250/120256415-e6c17400-c242-11eb-82ae-b496454dcfb5.png)
+
 
 ### 7. Construya el modelo de clasificación y explique su arquitectura.
 ```scala
@@ -80,7 +89,14 @@ val data2 = Features.transform(labeltransform)
     result.show (30)
 ```
 
+![image](https://user-images.githubusercontent.com/60414250/120256469-0eb0d780-c243-11eb-9a5c-96f15ab86875.png)
+
+![image](https://user-images.githubusercontent.com/60414250/120256491-1f614d80-c243-11eb-87d2-6d7667a7a2ad.png)
+
+
 ### 8. Imprima los resultados del modelo.
 ```scala
     println(s"Test set accuracy = ${evaluator.evaluate(predictionAndLabels)}")
 ```
+
+![image](https://user-images.githubusercontent.com/60414250/120256525-356f0e00-c243-11eb-90a4-2bdeaf9151e0.png)

@@ -40,24 +40,23 @@ val data2 = Features.transform(labeltransform)
 // 6. Haga la transformación pertinente para los datos categoricos los cuales serán nuestras etiquetas a clasificar.
 
 // Cubre el algoritmo en trabajar con caractisticas, dividido en grupos de datos.
-    val speciesIndexer = new StringIndexer().setInputCol ("species").setOutputCol ("label")
+    val data3 = data2.select("features", "label")
+    data3.show()
+
+    val splits = data3.randomSplit(Array(0.7, 0.3), seed = 1234L)
+    val train = splits(0)
+    val test = splits(1)
+
 
 // 7. Construya el modelo de clasificación y explique su arquitectura.
-// Splits aqui se utlizo para separar y para optener valores como archivos csv delimitados por tuberias.
-    val splits =  labeltransform.randomSplit (Array (0.6, 0.4), seed = 1234L)
-//Declarar el 60% de la informacion con la variable train.
-    val train = splits (0)
-// Aqui se declara la otra infomacion de 40%.
-    val test = splits (1)
-
-    val layers = Array [Int] (4, 5, 4, 3)
-    val trainer = new MultilayerPerceptronClassifier().setLayers(layers).setBlockSize (128) .setSeed (1234L) .setMaxIter (100)
-    val model = trainer.fit (train)
-    val result = model.transform (test)
-    val predictionAndLabels = result.select ("prediction", "label")
+    val layers = Array[Int](4, 5, 4, 3)
+    val trainer = new MultilayerPerceptronClassifier().setLayers(layers).setBlockSize(128).setSeed(1234L).setMaxIter(100)
+    val modelML = trainer.fit(train)
+    val result = modelML.transform(test)
+    val predictionAndLabels = result.select("prediction", "label")
     val evaluator = new MulticlassClassificationEvaluator().setMetricName("accuracy")
     predictionAndLabels.show (50)
     result.show (30)
-    
+
 // 8. Imprima los resultados del modelo
     println(s"Test set accuracy = ${evaluator.evaluate(predictionAndLabels)}")

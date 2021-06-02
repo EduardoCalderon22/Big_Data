@@ -32,3 +32,4 @@
    * [Expo Multilayer perceptron classifier](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Multilayer_Perceptron_Classifier)
    * [Expo Linear Support Vector Machine](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Linear_Supoport_Vector_Machine)
    * [Expo One-vs-Rest classifier (a.k.a. One-vs-All)](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/Sample_Multiclass_Classification_Data)
+   * [NaiveBayes](https://github.com/EduardoCalderon22/Big_Data/tree/Unit_2/Unit_2/Practices/NaiveBayes-main)

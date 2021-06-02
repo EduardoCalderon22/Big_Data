@@ -1,9 +1,9 @@
 # Multilayer perceptron
 
-En las siguientes instrucciones volveremos a algunas importaciones importantes para la realización del problema y la percepción de los datos.
-Estos datos se recuperaron del repositorio: https://github.com/jcromerohdz/iris
-Usaremos Liberia Mlib que puede ayudarnos en la percepción multicapa.
-Para el primer paso, debe limpiar los datos a través de este script.
+In the following instructions we will return to some important imports for the realization of the problem and the perception of the data.
+This data was retrieved from the repository: https://github.com/jcromerohdz/iris
+We will use Liberia Mlib which can help us in multilayer perception.
+For the first step, you need to clean the data through this script.
 
 ```scala
 import org.apache.spark.sql.SparkSession
@@ -12,29 +12,29 @@ import org.apache.spark.ml.feature. {VectorAssembler, StringIndexer}
 import org.apache.spark.ml.linalg.Vectors
 ```
 
-#### Cargamos los datos del iris del .csv para ser evaluados.
+#### We load the iris data from the .csv to be evaluated.
 ```scala
 val data = spark.read.option ("header", "true").option("inferSchema", "true").format ("csv").load("C:/Repositorios/Big_Data/Unit_2/Evaluation/iris.csv")
 ```
 
-#### Convertimos los datos de la columna "species" a valores numericos.
+#### We convert the data in the "species" column to numeric values.
 ```scala
 val label = new StringIndexer().setInputCol("species").setOutputCol("label")
 val labeltransform = label.fit(data).transform(data)
 ```
 
-#### Convertimos los datos de todas las columnas a un arreglo llamadao "Features" y despues la pasamos a otro arreglo llamado data 2.
+#### We convert the data of all the columns to an array called "Features" and then we pass it to another array called data 2.
 ```scala
 val Features = (new VectorAssembler(). setInputCols (Array ("sepal_length", "sepal_width", "petal_length", "petal_width")).setOutputCol("features"))
 val data2 = Features.transform(labeltransform)
 ```
 
-#### a. Utilice la librería Mllib de Spark el algoritmo de Machine Learning correspondiente a multilayer perceptron.
+#### a. Use the Spark Mllib library the Machine Learning algorithm corresponding to multilayer perceptron.
 ```scala
     import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
     import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 ```
-#### 2. ¿Cuáles son los nombres de las columnas?
+#### 2. What are the names of the columns?
 ```scala
     data2.columns
 ```
@@ -42,7 +42,7 @@ val data2 = Features.transform(labeltransform)
 ![image](https://user-images.githubusercontent.com/60414250/120407438-023f8400-c302-11eb-8a06-840a99af86c1.png)
 
 
-#### 3. ¿Cómo es el esquema?
+#### 3. What is the scheme like?
 ```scala
     data2.printSchema()
 ```
@@ -50,7 +50,7 @@ val data2 = Features.transform(labeltransform)
 ![image](https://user-images.githubusercontent.com/60414250/120407471-11becd00-c302-11eb-95c7-bb0f2771f7e8.png)
 
 
-#### 4. Imprime las primeras 5 columnas.
+#### 4. Print the first 5 columns.
 ```scala
     data2.show(5)
 ```
@@ -58,7 +58,7 @@ val data2 = Features.transform(labeltransform)
 ![image](https://user-images.githubusercontent.com/60414250/120407502-200ce900-c302-11eb-83a2-9b5f5ed86f02.png)
 
 
-#### 5. Usa el metodo describe () para aprender mas sobre los datos del DataFrame.
+#### 5. Use the describe () method to learn more about the data in the DataFrame.
 ```scala
     data2.describe().show()
 ```
@@ -66,7 +66,7 @@ val data2 = Features.transform(labeltransform)
 ![image](https://user-images.githubusercontent.com/60414250/120407550-387d0380-c302-11eb-8813-eedcaebdcf1e.png)
 
 
-#### 6. Haga la transformación pertinente para los datos categoricos los cuales serán nuestras etiquetas a clasificar.
+#### 6. Make the pertinent transformation for the categorical data which will be our labels to be classified.
 ```scala
 // Cubre el algoritmo en trabajar con caractisticas, dividido en grupos de datos.
     val data3 = data2.select("features", "label")
@@ -80,7 +80,7 @@ val data2 = Features.transform(labeltransform)
     val test = splits(1)
 ```
 
-#### 7. Construya el modelo de clasificación y explique su arquitectura.
+#### 7. Build the classification model and explain its architecture.
 ```scala
     val layers = Array[Int](4, 5, 4, 3)
 // Se configura el entrenador del algoritmo Multilayer
@@ -104,7 +104,7 @@ val data2 = Features.transform(labeltransform)
 
 ![image](https://user-images.githubusercontent.com/60414250/120407880-ceb12980-c302-11eb-8e0b-0f2836c19cf0.png)
 
-#### 8. Resultado de impricion de los resultados del modelo.
+#### 8. Printing the results of the model.
 ```scala
     println(s"Test set accuracy = ${evaluator.evaluate(predictionAndLabels)}")
 ```

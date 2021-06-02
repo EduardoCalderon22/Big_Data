@@ -1,4 +1,4 @@
-# Decision Tree Classifier
+# Multilayer perceptron
 
 En las siguientes instrucciones volveremos a algunas importaciones importantes para la realización del problema y la percepción de los datos.
 Estos datos se recuperaron del repositorio: https://github.com/jcromerohdz/iris

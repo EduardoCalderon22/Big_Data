@@ -33,4 +33,24 @@ import org.apache.spark.ml.linalg.Vectors
 //Crea un nuevo objeto Vector Assembler para las columnas de caracteristicas como un conjunto de entrada, recordando que no hay etiquetas
 val assembler = new VectorAssembler().setInputCols(Array("Fresh", "Milk", "Grocery", "Frozen", "Detergents_Paper", "Delicassen")).setOutputCol("features")
 
+//Utilice el objeto assembler para transformar feature_data
+val traning = assembler.transform(feature_data)
 
+//Crear un modelo Kmeans con K=3
+val kmeans = new KMeans().setK(3).setSeed(1L)
+val model = kmeans.fit(traning)
+
+//Evalúe los grupos utilizando Within Set Sum of Squared Errors WSSSE e imprima los centroides.
+val WSSSE = model.computeCost(traning)
+println(s"Within Set Sum of Squared Errors = $WSSSE")
+
+//Imprecion de los resultados de Clusering Centers
+println("Cluster Centers: ")
+model.clusterCenters.foreach(println)
+
+//Conclusion
+
+// El centro del grupo es el promedio de todos los puntos (elementos) que pertenecen a ese grupo.
+// K-means podría usarse en muchos problemas,de clasificación no supervisada que agrupa objetos 
+// en k grupos basándose en sus características. El agrupamiento se realiza minimizando la suma de distancias entre cada objeto y el centroide de su grupo o cluster.
+// se soluciono un problema de análisis de optimización de datos acerca de los clientes con cantidad de productos mayorista en categorías.

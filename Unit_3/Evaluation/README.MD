@@ -40,4 +40,27 @@ Create a new Vector Assembler object for the feature columns as an input set, re
 ```scala
 val assembler = new VectorAssembler().setInputCols(Array("Fresh", "Milk", "Grocery", "Frozen", "Detergents_Paper", "Delicassen")).setOutputCol("features")
 ```
+Use the assembler object to transform feature data
+```scala
+val traning = assembler.transform(feature_data)
+```
+Create a K Means model with K = 3
+```scala
+val kmeans = new KMeans().setK(3).setSeed(1L)
+val model = kmeans.fit(traning)
+```
+Evaluate the groups using Within Set Sum of Squared Errors WSSSE and print the centroids.
+```scala
+val WSSSE = model.computeCost(traning)
+println(s"Within Set Sum of Squared Errors = $WSSSE")
+```
+Clustering Center Results Printing
+```scala
+println("Cluster Centers: ")
+model.clusterCenters.foreach(println)
+```
 
+### Conclution
+
+The center of the group is the average of all the points (elements) that belong to that group.
+  K-means could be used in many unsupervised classification problems that groups objects into k groups based on their characteristics. Grouping is done by minimizing the sum of distances between each object and the centroid of its group or cluster. A data optimization analysis problem about customers with quantity of wholesale products in categories has been solved.

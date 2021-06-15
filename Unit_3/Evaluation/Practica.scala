@@ -10,7 +10,7 @@ import org.apache.spark.ml.clustering.KMeans
 import org.apache.spark.ml.feature.{VectorAssembler,StringIndexer,VectorIndexer,OneHotEncoder}
 import org.apache.spark.ml.linalg.Vectors
 
-//Linea de liberia que soluciona y hace la minimizacion errores en las lineas de agrupacion.
+//Linea de libreria que soluciona y hace la minimizacion errores en las lineas de agrupacion.
 import org.apache.log4j._
 Logger.getLogger("org").setLevel(Level.ERROR)
 

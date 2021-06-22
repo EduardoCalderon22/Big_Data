@@ -91,7 +91,7 @@ Sometimes logistic regressions are difficult to interpret; the Intellectus Stati
 Multiple Explanatory Variables
 An advantage of logistic regression is that it allows the evaluation of multiple explanatory variables by extension of the basic principles. The general equation is
 
-imagen1
+![1](https://user-images.githubusercontent.com/60414250/123009754-2d9e1780-d372-11eb-8192-ac2f1ea35132.JPG)
 
 Types of Logistic Regression
 * 1. Binary Logistic Regression
@@ -105,9 +105,7 @@ Three or more categories with ordering. Example: Movie rating from 1 to 5
 
  Is a supervised learning algorithm that learns a function by training on a dataset, where  is the number of dimensions for input and  is the number of dimensions for output. Given a set of features and a target , it can learn a non-linear function approximator for either classification or regression. It is different from logistic regression, in that between the input and the output layer, there can be one or more non-linear layers, called hidden layers. Figure 1 shows a one hidden layer MLP with scalar output.
 
-imagen2
-
-
+![2](https://user-images.githubusercontent.com/60414250/123009939-8968a080-d372-11eb-866c-376bbb8501aa.JPG)
 
 
 ## Implementation

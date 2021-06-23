@@ -129,6 +129,44 @@ For us it is understandable since its advantages are something good such as:
 
 ## Results
 
+### SVM
+
+When testing the code in the scala tool, his time was optimal and fluid at the time of dataset capture and analysis. Its percentage is good not so efficient compared to the others. But it can be a great alternative.
+
+| No.Run | Results | Execution Time |
+| ------ | ------- | -------------- |
+| 1      | 1.0849  | 17segs         |
+| 2      | 1.0849  | 16segs         |    
+| 3      | 1.0849  | 18segs         |
+| 4      | 1.0849  | 18segs         |
+| 5      | 1.0849  | 17segs         |
+| 6      | 1.0849  | 20segs         |
+| 7      | 1.0849  | 19segs         |
+| 8      | 1.0849  | 21segs         |
+| 9      | 1.0849  | 21segs         |
+| 10     | 1.0849  | 21segs         |
+| 11     | 1.0849  | 21segs         |
+| 12     | 1.0849  | 21segs         |
+| 13     | 1.0849  | 21segs         |
+| 14     | 1.0849  | 21segs         |
+| 15     | 1.0849  | 21segs         |
+| 16     | 1.0849  | 17segs         |
+| 17     | 1.0849  | 18segs         |
+| 18     | 1.0849  | 18segs         |
+| 19     | 1.0849  | 17segs         | 
+| 20     | 1.0849  | 15segs         |
+| 21     | 1.0849  | 18segs         |
+| 22     | 1.0849  | 18segs         |
+| 23     | 1.0849  | 17segs         |
+| 24     | 1.0849  | 18segs         |
+| 25     | 1.0849  | 16segs         |
+| 26     | 1.0849  | 16segs         |
+| 27     | 1.0849  | 18segs         |
+| 28     | 1.0849  | 15segs         |
+| 29     | 1.0849  | 19segs         |
+| 30     | 1.0849  | 18segs         |
+
+
 
 ## Conclusions
 We have taken up several concepts and practices during the course of the degree, but an important aspect is to know those machine language models to make analysis towards a data set. We observed several results and made known the most optimal possible, but it is not more viable. since each one has a different purpose than a decision making. From this in-depth analysis it can be seen that the algorithm of ..........

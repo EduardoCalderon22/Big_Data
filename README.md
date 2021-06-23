@@ -20,16 +20,22 @@
 ## Index
 
 
-* [Introducction](#intro)
-* [Theoretical Framework](#Th)
-    * [Support Vector Machine](#SVM)
-    * [Decision Tree Classifier](#Decision-tree)
-    * [Logistic Regression](#LR)
-    * [Multilayer Perceptron](#MP)
-* [Implementation](#Implementation)
-* [Results](#Results)
-* [Conclusions](#Conclisions)
-* [References](#References)
+- [Introduction](#introduction)
+- [Theoretical framework](#theoretical-framework)
+  - [Support Vector Machine](#support-vector-machine)
+  - [Decision Tree Classifier](#decision-tree-classifier)
+      - [Utilization](#utilization)
+      - [Advantage](#advantage)
+      - [Disadvantages](#disadvantages)
+  - [Logistic Regression](#logistic-regression)
+  - [Multilayer Perceptron](#multilayer-perceptron)
+  - [Implementation](#implementation)
+  - [Code](#code)
+  - [Results](#results)
+  - [Conclusions](#conclusions)
+  - [References](#references)
+  - [](#)
+ 
 
 <div id='intro'/>
 
@@ -50,6 +56,8 @@ Support Vector Machines constitute a learning-based method for solving classific
 
 ![SVM](https://www.merkleinc.com/es/sites/es/files/inline-images/ml_1.png)
 
+
+<div id='decision'/>
 
 ## Decision Tree Classifier
 
@@ -120,6 +128,15 @@ For us it is understandable since its advantages are something good such as:
 * Integrate analytical data modeling within itself.
 * Grant scalability in its power by introducing more processors in the system.
 * Reduces costs by being able to use standard hardware in common use.
+
+
+## Code
+
+* [Multilayer Perceptron](https://github.com/EduardoCalderon22/Big_Data/blob/Project/Project/Multilayer.scala)
+* [SVM](https://github.com/EduardoCalderon22/Big_Data/blob/Project/Project/SVM.scala)
+* [Decision Tree](https://github.com/EduardoCalderon22/Big_Data/blob/Project/Project/decision.scala)
+* [Logistic Regression](https://github.com/EduardoCalderon22/Big_Data/blob/Project/Project/logistic.scala)
+
 
 ## Results
 

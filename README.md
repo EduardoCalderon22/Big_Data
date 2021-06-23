@@ -50,6 +50,7 @@ Support Vector Machines constitute a learning-based method for solving classific
 
 ![SVM](https://www.merkleinc.com/es/sites/es/files/inline-images/ml_1.png)
 
+
 ## Decision Tree Classifier
 
 A decision tree or classification tree is a tree in which each internal node (not leaf) is labeled with an input function. The arcs from a node labeled with a feature are labeled with each of the possible values of the feature.
@@ -78,6 +79,37 @@ For its part, the disadvantages of this algorithm are:
 * The small variation in the data can lead to a different decision tree.
 * They are biased with an unbalanced dataset, so it is recommended to balance the dataset before creating the decision tree.
 
+## Logistic Regression
+
+Logistic regression models the probabilities for classification problems with two possible outcomes. It's an extension of the linear regression model for classification problems.
+
+
+Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
+
+Sometimes logistic regressions are difficult to interpret; the Intellectus Statistics tool easily allows you to conduct the analysis, then in plain English interprets the output.
+
+Multiple Explanatory Variables
+An advantage of logistic regression is that it allows the evaluation of multiple explanatory variables by extension of the basic principles. The general equation is
+
+imagen1
+
+Types of Logistic Regression
+* 1. Binary Logistic Regression
+The categorical response has only two 2 possible outcomes. Example: Spam or Not.
+* 2. Multinomial Logistic Regression
+Three or more categories without ordering. Example: Predicting which food is preferred more (Veg, Non-Veg, Vegan)
+* 3. Ordinal Logistic Regression
+Three or more categories with ordering. Example: Movie rating from 1 to 5
+
+## Multilayer Perceptron
+
+ Is a supervised learning algorithm that learns a function by training on a dataset, where  is the number of dimensions for input and  is the number of dimensions for output. Given a set of features and a target , it can learn a non-linear function approximator for either classification or regression. It is different from logistic regression, in that between the input and the output layer, there can be one or more non-linear layers, called hidden layers. Figure 1 shows a one hidden layer MLP with scalar output.
+
+imagen2
+
+
+
+
 ## Implementation
 
 For the demonstration of the methods of analysis and verification of problems towards the data generated in a result that is verified in bigdata, the task was carried out to find an implementation tool for the use of data manipulation for as well as to generate viable results and effective, for what I entail in this course in using Spark, first of all we will explain that Spark is, as shown in different media and data science forums in Big Data and Machine Learning, it is a fast and efficient engine for storage and processing of the data in large volumes, which shows open source, this is the tool that provides agility in detecting patterns in the data, the organized classification of the information, the execution of intensive computation on the data and parallel processing clusters.
@@ -97,6 +129,12 @@ For us it is understandable since its advantages are something good such as:
 ## Conclusions
 
 ## References
+
+https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
+
+https://www.sciencedirect.com/topics/medicine-and-dentistry/logistic-regression-analysis
+
+https://www.sciencedirect.com/topics/computer-science/multilayer-perceptron
 
 ## 
 

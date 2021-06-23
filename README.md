@@ -135,11 +135,14 @@ We have taken up several concepts and practices during the course of the degree,
 
 ## References
 
-https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
+(John Denker). (Septiembre 1,2020). Machine Learning y Support Vector Machines: porque el tiempo es dinero. junio/2021, de MERKLE Sitio web: https://www.merkleinc.com/es/es/blog/machine-learning-support-vector-machines
 
-https://www.sciencedirect.com/topics/medicine-and-dentistry/logistic-regression-analysis
+info@statisticssolutions.com. (2021). What is Logistic Regression?. 23/06/2021, de Complete Dissertation By Statistics Solutions Sitio web: https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
 
-https://www.sciencedirect.com/topics/computer-science/multilayer-perceptron
+Julien I.E. Hoffman. (2015). Logistic Regression Analysis. junio/2021, de ScienceDirect Sitio web: https://www.sciencedirect.com/topics/medicine-and-dentistry/logistic-regression-analysis
+
+S. Abirami, P. Chitra. (2020). Multilayer Perceptron. junio/2021, de ScienceDirect Sitio web: https://www.sciencedirect.com/topics/computer-science/multilayer-perceptron
+
 
 
 

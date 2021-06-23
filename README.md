@@ -135,38 +135,71 @@ When testing the code in the scala tool, his time was optimal and fluid at the t
 
 | No.Run | Results | Execution Time |
 | ------ | ------- | -------------- |
-| 1      | 1.0849  | 17segs         |
-| 2      | 1.0849  | 16segs         |    
-| 3      | 1.0849  | 18segs         |
-| 4      | 1.0849  | 18segs         |
-| 5      | 1.0849  | 17segs         |
-| 6      | 1.0849  | 20segs         |
-| 7      | 1.0849  | 19segs         |
-| 8      | 1.0849  | 21segs         |
-| 9      | 1.0849  | 21segs         |
-| 10     | 1.0849  | 21segs         |
-| 11     | 1.0849  | 21segs         |
-| 12     | 1.0849  | 21segs         |
-| 13     | 1.0849  | 21segs         |
-| 14     | 1.0849  | 21segs         |
-| 15     | 1.0849  | 21segs         |
-| 16     | 1.0849  | 17segs         |
-| 17     | 1.0849  | 18segs         |
-| 18     | 1.0849  | 18segs         |
-| 19     | 1.0849  | 17segs         | 
-| 20     | 1.0849  | 15segs         |
-| 21     | 1.0849  | 18segs         |
-| 22     | 1.0849  | 18segs         |
-| 23     | 1.0849  | 17segs         |
-| 24     | 1.0849  | 18segs         |
-| 25     | 1.0849  | 16segs         |
-| 26     | 1.0849  | 16segs         |
-| 27     | 1.0849  | 18segs         |
-| 28     | 1.0849  | 15segs         |
-| 29     | 1.0849  | 19segs         |
-| 30     | 1.0849  | 18segs         |
+| 1      | 1.0849  | 9 segs         |
+| 2      | 1.0849  | 9 segs         |    
+| 3      | 1.0849  | 8 segs         |
+| 4      | 1.0849  | 9 segs         |
+| 5      | 1.0849  | 9 segs         |
+| 6      | 1.0849  | 9 segs         |
+| 7      | 1.0849  | 9 segs         |
+| 8      | 1.0849  | 10 segs        |
+| 9      | 1.0849  | 10 segs        |
+| 10     | 1.0849  | 12 segs        |
+| 11     | 1.0849  | 11 segs        |
+| 12     | 1.0849  | 11 segs        |
+| 13     | 1.0849  | 9 segs         |
+| 14     | 1.0849  | 9 segs         |
+| 15     | 1.0849  | 9 segs         |
+| 16     | 1.0849  | 9 segs         |
+| 17     | 1.0849  | 8 segs         |
+| 18     | 1.0849  | 9 segs         |
+| 19     | 1.0849  | 11 segs        | 
+| 20     | 1.0849  | 11 segs        |
+| 21     | 1.0849  | 8 segs         |
+| 22     | 1.0849  | 8 segs         |
+| 23     | 1.0849  | 8 segs         |
+| 24     | 1.0849  | 10 segs        |
+| 25     | 1.0849  | 9 segs         |
+| 26     | 1.0849  | 8 segs         |
+| 27     | 1.0849  | 8 segs         |
+| 28     | 1.0849  | 8 segs         |
+| 29     | 1.0849  | 8 segs         |
+| 30     | 1.0849  | 9 segs         |
 
+### Multilayer Perception
 
+| No.Run | Results | Execution Time |
+| ------ | ------- | -------------- |
+| 1      | 0.8866  | 17segs         |
+| 2      | 0.8866  | 16segs         |    
+| 3      | 0.8866  | 18segs         |
+| 4      | 0.8866  | 18segs         |
+| 5      | 0.8866  | 17segs         |
+| 6      | 0.8866  | 16segs         |
+| 7      | 0.8866  | 19segs         |
+| 8      | 0.8866  | 19segs         |
+| 9      | 0.8866  | 19segs         |
+| 10     | 0.8866  | 18segs         |
+| 11     | 0.8866  | 21segs         |
+| 12     | 0.8866  | 18segs         |
+| 13     | 0.8866  | 17segs         |
+| 14     | 0.8866  | 17segs         |
+| 15     | 0.8866  | 17segs         |
+| 16     | 0.8866  | 17segs         |
+| 17     | 0.8866  | 16segs         |
+| 18     | 0.8866  | 15segs         |
+| 19     | 0.8866  | 16segs         | 
+| 20     | 0.8866  | 15segs         |
+| 21     | 0.8866  | 15segs         |
+| 22     | 0.8866  | 17segs         |
+| 23     | 0.8866  | 17segs         |
+| 24     | 0.8866  | 18segs         |
+| 25     | 0.8866  | 16segs         |
+| 26     | 0.8866  | 16segs         |
+| 27     | 0.8866  | 15segs         |
+| 28     | 0.8866  | 15segs         |
+| 29     | 0.8866  | 15segs         |
+| 30     | 0.8866  | 16segs         |
 
 ## Conclusions
 We have taken up several concepts and practices during the course of the degree, but an important aspect is to know those machine language models to make analysis towards a data set. We observed several results and made known the most optimal possible, but it is not more viable. since each one has a different purpose than a decision making. From this in-depth analysis it can be seen that the algorithm of ..........

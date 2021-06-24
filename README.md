@@ -288,8 +288,7 @@ The 30 tests we did with the logistic regression algorithm, the results were ver
 
 
 ## Conclusions
-We have taken up several concepts and practices during the degree, but an important aspect is to know these models in machine language to perform analysis towards a data set. We look at various results and report the best possible one, but it is not the most feasible. since each one has a different purpose than that of decision making. From this in-depth analysis it can be seen that the decision tree algorithm is the most optimal from our point of view because it had a high average efficiency and the fastest to execute.
-Finally we want to add that Spark is very good for processing large amounts of data and is easy to use even if you do not have experience in handling scala.
+We have taken up several concepts and practices during the course, but an important aspect is to know these models in machine learning to perform the analysis towards a large data set. We observe several results and report as best as possible, each of these algorithms has a different purpose when making decisions. From this in-depth analysis it can be seen that the decision tree algorithm is the most optimal from our point of view because it had a high average efficiency and the fastest to execute. It is also the easiest to understand. Finally, we want to add that Spark is very good at processing large amounts of data and is easy to use even if you are inexperienced in handling this tool.
 
 ## References
 

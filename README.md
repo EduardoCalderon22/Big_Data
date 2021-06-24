@@ -131,6 +131,7 @@ For us it is understandable since its advantages are something good such as:
 
 
 ## Conclusions
+We have taken up several concepts and practices during the course of the degree, but an important aspect is to know those machine language models to make analysis towards a data set. We observed several results and made known the most optimal possible, but it is not more viable. since each one has a different purpose than a decision making. From this in-depth analysis it can be seen that the algorithm of ..........
 
 ## References
 
@@ -140,7 +141,7 @@ https://www.sciencedirect.com/topics/medicine-and-dentistry/logistic-regression-
 
 https://www.sciencedirect.com/topics/computer-science/multilayer-perceptron
 
-## 
+
 
 
 

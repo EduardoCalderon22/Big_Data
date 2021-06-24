@@ -221,7 +221,11 @@ It is a simple algorithm designed to perform a binary classification; that is, i
 
 ### Decision Tree Classifier
 
+Decision trees are statistical algorithms or machine learning techniques that allow us to build predictive models of data analytics for Big Data based on their classification according to certain characteristics or properties, or on regression through the relationship between different variables to predict the value of another.
+
 When using the decision trees, the results were optimal and the execution time was very similar in almost all the tests we did.
+
+The average time of this algorithm is 9 seconds.
 
 | No.Run | Results | Execution Time |
 | ------ | ------- | -------------- |
@@ -259,6 +263,8 @@ When using the decision trees, the results were optimal and the execution time w
 ### Logistic Regression
 
 The 30 tests we did with the logistic regression algorithm, the results were very similar. In addition, the execution time was very fast.
+
+The average time of this algorithm is similar to the decision tree of 9 seconds.
 
 | No.Run | Results | Execution Time |
 | ------ | ------- | -------------- |

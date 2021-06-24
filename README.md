@@ -168,6 +168,8 @@ When testing the code in the scala tool, his time was optimal and fluid at the t
 
 ### Multilayer Perception
 
+It is a simple algorithm designed to perform a binary classification; that is, it predicts if the input belongs to a certain category of interest, but when implementing its analysis in the dataset, it can be observed that the execution is something that varies in its execution of each part of the algorithm. Since the data is loaded in a way that the instructions are executing little by little, structuring the corresponding split. It has a late execution time since it is an algorithm that classifies the input by separating two categories with a straight line. A maximum estimated time of 21 seconds was obtained at the time of execution.
+
 | No.Run | Results | Execution Time |
 | ------ | ------- | -------------- |
 | 1      | 0.8866  | 17segs         |

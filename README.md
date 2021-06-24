@@ -27,13 +27,18 @@
       - [Utilization](#utilization)
       - [Advantage](#advantage)
       - [Disadvantages](#disadvantages)
+      - [Example](#example)
   - [Logistic Regression](#logistic-regression)
   - [Multilayer Perceptron](#multilayer-perceptron)
-- [Implementation](#implementation)
-  - [Code](#code)
-- [Results](#results)
-- [Conclusions](#conclusions)
-- [References](#references)
+  - [Implementation](#implementation)
+    - [Code](#code)
+  - [Results](#results)
+    - [SVM](#svm)
+    - [Multilayer Perception](#multilayer-perception)
+    - [Decision Tree Classifier](#decision-tree-classifier-1)
+    - [Logistic Regression](#logistic-regression-1)
+  - [Conclusions](#conclusions)
+  - [References](#references)
   
 # Introduction 
 
@@ -75,6 +80,10 @@ For its part, the disadvantages of this algorithm are:
 * Noise sensitive data, you can oversize noisy data.
 * The small variation in the data can lead to a different decision tree.
 * They are biased with an unbalanced dataset, so it is recommended to balance the dataset before creating the decision tree.
+
+#### Example
+
+![Ejemplo 1](https://miro.medium.com/max/724/1*WerHJ14JQAd3j8ASaVjAhw.jpeg)
 
 ## Logistic Regression
 
@@ -203,18 +212,96 @@ It is a simple algorithm designed to perform a binary classification; that is, i
 | 29     | 0.8866  | 15segs         |
 | 30     | 0.8866  | 16segs         |
 
+### Decision Tree Classifier
+
+When using the decision trees, the results were optimal and the execution time was very similar in almost all the tests we did.
+
+| No.Run | Results | Execution Time |
+| ------ | ------- | -------------- |
+| 1      | 0.89012 | 9segs         |
+| 2      | 0.89229 | 9segs         |    
+| 3      | 0.88995 | 9segs         |
+| 4      | 0.89505 | 10segs        |
+| 5      | 0.89493 | 8segs         |
+| 6      | 0.89221 | 9segs         |
+| 7      | 0.88775 | 8segs         |
+| 8      | 0.90942 | 9segs         |
+| 9      | 0.88612 | 10segs        |
+| 10     | 0.88839 | 9segs         |
+| 11     | 0.89949 | 10segs        |
+| 12     | 0.90694 | 10segs        |
+| 13     | 0.89673 | 9segs         |
+| 14     | 0.88591 | 9segs         |
+| 15     | 0.87385 | 9segs         |
+| 16     | 0.89232 | 9segs         |
+| 17     | 0.89931 | 9segs         |
+| 18     | 0.89048 | 10segs        |
+| 19     | 0.88629 | 8segs         | 
+| 20     | 0.88492 | 10segs        |
+| 21     | 0.89385 | 10segs        |
+| 22     | 0.88932 | 9segs         |
+| 23     | 0.89046 | 9segs         |
+| 24     | 0.89855 | 9segs         |
+| 25     | 0.90322 | 10segs        |
+| 26     | 0.87442 | 10segs        |
+| 27     | 0.89541 | 9segs         |
+| 28     | 0.88154 | 8segs         |
+| 29     | 0.88299 | 9segs         |
+| 30     | 0.89375 | 10segs        |
+
+### Logistic Regression
+
+The 30 tests we did with the logistic regression algorithm, the results were very similar. In addition, the execution time was very fast.
+
+| No.Run | Results | Execution Time |
+| ------ | ------- | -------------- |
+| 1      | 0.88526 | 10segs         |
+| 2      | 0.88627 | 9segs          |    
+| 3      | 0.88526 | 10segs         |
+| 4      | 0.89302 | 9segs          |
+| 5      | 0.88824 | 9segs          |
+| 6      | 0.88199 | 10segs         |
+| 7      | 0.89571 | 10segs         |
+| 8      | 0.89185 | 9segs          |
+| 9      | 0.89394 | 9segs          |
+| 10     | 0.88756 | 9segs          |
+| 11     | 0.89384 | 10segs         |
+| 12     | 0.89048 | 9segs          |
+| 13     | 0.88765 | 9segs          |
+| 14     | 0.89219 | 10segs         |
+| 15     | 0.88854 | 10segs         |
+| 16     | 0.90962 | 10segs         |
+| 17     | 0.88759 | 9segs          |
+| 18     | 0.88948 | 9segs          |
+| 19     | 0.88629 | 8segs          | 
+| 20     | 0.89558 | 9segs          |
+| 21     | 0.88993 | 10segs         |
+| 22     | 0.88901 | 10segs         |
+| 23     | 0.88843 | 9segs          |
+| 24     | 0.89594 | 9segs          |
+| 25     | 0.88755 | 9segs          |
+| 26     | 0.88829 | 10segs         |
+| 27     | 0.89291 | 9segs          |
+| 28     | 0.88154 | 10segs         |
+| 29     | 0.88689 | 9segs          |
+| 30     | 0.88104 | 9segs          |
+
+
 ## Conclusions
-We have taken up several concepts and practices during the course of the degree, but an important aspect is to know those machine language models to make analysis towards a data set. We observed several results and made known the most optimal possible, but it is not more viable. since each one has a different purpose than a decision making. From this in-depth analysis it can be seen that the algorithm of ..........
+We have taken up several concepts and practices during the degree, but an important aspect is to know these models in machine language to perform analysis towards a data set. We look at various results and report the best possible one, but it is not the most feasible. since each one has a different purpose than that of decision making. From this in-depth analysis it can be seen that the decision tree algorithm is the most optimal from our point of view because it had a high average efficiency and the fastest to execute.
+Finally we want to add that Spark is very good for processing large amounts of data and is easy to use even if you do not have experience in handling scala.
 
 ## References
 
-(John Denker). (Septiembre 1,2020). Machine Learning y Support Vector Machines: porque el tiempo es dinero. junio/2021, de MERKLE Sitio web: https://www.merkleinc.com/es/es/blog/machine-learning-support-vector-machines
+(John Denker). (Septiembre 1,2020). Machine Learning y Support Vector Machines: porque el tiempo es dinero. June/2021, de MERKLE Sitio web: https://www.merkleinc.com/es/es/blog/machine-learning-support-vector-machines
 
-info@statisticssolutions.com. (2021). What is Logistic Regression?. 23/06/2021, de Complete Dissertation By Statistics Solutions Sitio web: https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
+info@statisticssolutions.com. (2021). What is Logistic Regression?. 23/June/2021, de Complete Dissertation By Statistics Solutions Sitio web: https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
 
-Julien I.E. Hoffman. (2015). Logistic Regression Analysis. junio/2021, de ScienceDirect Sitio web: https://www.sciencedirect.com/topics/medicine-and-dentistry/logistic-regression-analysis
+Julien I.E. Hoffman. (2015). Logistic Regression Analysis. June/2021, de ScienceDirect Sitio web: https://www.sciencedirect.com/topics/medicine-and-dentistry/logistic-regression-analysis
 
-S. Abirami, P. Chitra. (2020). Multilayer Perceptron. junio/2021, de ScienceDirect Sitio web: https://www.sciencedirect.com/topics/computer-science/multilayer-perceptron
+S. Abirami, P. Chitra. (2020). Multilayer Perceptron. June/2021, de ScienceDirect Sitio web: https://www.sciencedirect.com/topics/computer-science/multilayer-perceptron
+
+Lorraine Li. (2019). Classification and Regression Analysis with Decision Trees. 22/June/2021, de TowardsDataScience Sitio web: https://towardsdatascience.com/https-medium-com-lorrli-classification-and-regression-analysis-with-decision-trees-c43cdbc58054
 
 
 

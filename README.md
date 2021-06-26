@@ -1,3 +1,4 @@
+
 ### <p align="center" > TECNOLÓGICO NACIONAL DE MÉXICO</p>
 
 ### <p align="center" > INSTITUTO TECNOLÓGICO DE TIJUANA</p>
@@ -314,6 +315,7 @@ Julien I.E. Hoffman. (2015). Logistic Regression Analysis. June/2021, de Science
 S. Abirami, P. Chitra. (2020). Multilayer Perceptron. June/2021, de ScienceDirect Sitio web: https://www.sciencedirect.com/topics/computer-science/multilayer-perceptron
 
 Lorraine Li. (2019). Classification and Regression Analysis with Decision Trees. 22/June/2021, de TowardsDataScience Sitio web: https://towardsdatascience.com/https-medium-com-lorrli-classification-and-regression-analysis-with-decision-trees-c43cdbc58054
+
 
 
 
